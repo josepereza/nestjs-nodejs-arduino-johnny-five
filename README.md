@@ -22,10 +22,10 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 ## Recursos
-** https://paraarduino.com/ides/como-instalar-el-ide-de-arduino-en-ubuntu/
-** https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/johnny-five/johnny-five-tests.ts
-** https://johnny-five.io/examples/
-** https://programarfacil.com/blog/arduino-blog/arduino-via-web-con-firmata/
+* https://paraarduino.com/ides/como-instalar-el-ide-de-arduino-en-ubuntu/
+* https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/johnny-five/johnny-five-tests.ts
+* https://johnny-five.io/examples/
+* https://programarfacil.com/blog/arduino-blog/arduino-via-web-con-firmata/
 
 ## ¿Que es Firmata?
 Hemos hablado en varias ocasiones de este protocolo y le hemos dedicamos parte de este podcast. En resumen, es un protocolo estándar para comunicar con microcontroladores desde cualquier software o cualquier ordenador conectado. El objetivo primordial es hacer que el microcontrolador sea una extensión de nuestro entorno de desarrollo. Esto nos evitará tener que programar en diferentes lenguajes de programación, enfocándonos en la aplicación para controlar el dispositivo.
