@@ -1,0 +1,29 @@
+const { Board, Led } = require('johnny-five');
+const { setTimeout } = require('timers/promises');
+
+const board = new Board();
+
+board.on('ready', async () => {
+  // Create an Led on pin 13
+  const led = new Led(13);
+  led.blink(100);
+  console.log('encendido');
+  await setTimeout(10000);
+  led.off();
+  await setTimeout(10000);
+  console.log('apagado');
+
+  await setTimeout(1000);
+  // Blink every half second
+  led.blink(300);
+  await setTimeout(1000);
+  led.stop();
+  led.off();
+  await setTimeout(1000);
+  led.on();
+  console.log('encendido');
+  await setTimeout(10000);
+  console.log('apagado');
+
+  led.off();
+});
